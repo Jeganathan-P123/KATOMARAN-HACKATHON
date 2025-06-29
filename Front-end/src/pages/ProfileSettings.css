@@ -1,0 +1,51 @@
+.profile-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(to right, #4f46e5, #7c3aed);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: linear-gradient(to right, #4338ca, #6d28d9);
+  }
+  

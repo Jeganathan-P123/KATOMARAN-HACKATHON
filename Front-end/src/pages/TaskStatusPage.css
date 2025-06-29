@@ -1,0 +1,39 @@
+.status-page {
+    padding: 40px;
+    min-height: 80vh;
+    background: #f9fafb;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .status-page .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .status-page h2 {
+    font-size: 1.8rem;
+    color: #1f2937;
+  }
+  
+  .status-page button {
+    background-color: #6366f1;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .status-page button:hover {
+    background-color: #4f46e5;
+  }
+  
+  .status-page p {
+    font-size: 1.1rem;
+    color: #4b5563;
+  }
+  
